@@ -9,7 +9,7 @@ import numpy as np
 
 def gaussseibel(A,b,x0,N,TOL):
     n = len(A)
-    k = 1;
+    k = 1
     while (k <= N):
         x = np.zeros(n)
         for i in range(n):
